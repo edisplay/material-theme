@@ -1,0 +1,51 @@
+title: Icon request
+labels:
+  - 'icon request'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Hi there! :wave:
+
+        Thanks for taking the time to fill out new request. Please use this discussion only to ask for new icons.
+        **If you want to discuss about something that doesn't match your taste, give feedback or chat about a topic, visit [Discussions](https://github.com/orgs/vira-themes/discussions).
+        If this discussion is not related to icon request will be closed instantly.**
+  - type: input
+    id: svg
+    attributes:
+      label: Logo url to SVG
+      description: Insert the url to the SVG logo to associate to the files or folder.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: extensions
+    attributes:
+      label: File extensions (if applicable)
+      description: All the file extensions associated with the icon, comma separated.
+      placeholder: txt, md, json, etc..
+    validations:
+      required: false
+  - type: input
+    id: filanames
+    attributes:
+      label: File or folder names associated (if applicable)
+      description: All the filenames associated with the icon, comma separated. Don't include extensions.
+      placeholder: myfile, myfile.config.js, node_modules, etc..
+    validations:
+      required: false
+  - type: input
+    id: languages
+    attributes:
+      label: Language IDs associated (if applicable)
+      description: All the language IDs associated with the icon.
+      placeholder: text, markdown
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Add extra notes or information about the icon request. Upload here the SVG logo if is not available online.
+    validations:
+      required: false

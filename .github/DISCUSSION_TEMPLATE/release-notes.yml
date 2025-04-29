@@ -1,0 +1,34 @@
+title: Release note
+labels:
+  - 'release note'
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version released associated with the release notes
+      description: Insert only the version number without the minor version. For example, if the release is v1.1.2, insert only 1.1.
+      placeholder: v1.0
+    validations:
+      required: true
+  - type: textarea
+    id: new-features
+    attributes:
+      label: What's new?
+      description: List what's new for the users in this release as bullet list. You can use markdown syntax.
+  - type: textarea
+    id: changed-features
+    attributes:
+      label: What's changed?
+      description: List what's changed for the users in this release as bullet list. You can use markdown syntax.
+  - type: textarea
+    id: fixed-features
+    attributes:
+      label: What's fixed?
+      description: List what has been fixed in this release as bullet list. You can use markdown syntax.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Add extra notes or information about the release. You can use markdown syntax.
+    validations:
+      required: false

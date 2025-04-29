@@ -1,0 +1,19 @@
+title: Feature request
+labels:
+  - 'feature request'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Hi there! :wave:
+
+        Thanks for taking the time to fill out new request. Please this discussion only to ask for new features.
+        **If you want to discuss about something that doesn't match your taste, give feedback or chat about a topic, visit [Discussions](https://github.com/orgs/vira-themes/discussions).
+        If this discussion is not related to a feature request will be closed instantly.**
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature description
+      description: Describe the feature you want to request. Please be as detailed as possible.
+    validations:
+      required: true
